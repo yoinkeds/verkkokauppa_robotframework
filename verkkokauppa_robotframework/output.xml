@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.2 on win32)" generated="20221014 01:02:33.168" rpa="false" schemaversion="3">
+<suite id="s1" name="Verkkokauppa Testing" source="c:\Users\onnin\Desktop\Software testing\Software testing\group project\verkkokauppa_testing.robot">
+<test id="s1-t1" name="TC_CI (testcase_contactinfo), Adewale Salami 10.10.22, Low Priority" line="133">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221014 01:02:33.680" level="INFO">Opening browser 'Chrome' to base url 'https://www.verkkokauppa.com/'.</msg>
+<status status="PASS" starttime="20221014 01:02:33.679" endtime="20221014 01:02:38.170"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221014 01:02:38.171" endtime="20221014 01:02:38.296"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>xpath://*[@id="main"]/div/div[9]/div/a</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20221014 01:02:38.297" endtime="20221014 01:02:38.606"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="app"]/div/aside/div[2]/div/div[2]/nav/div[2]/ul[1]/li[5]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221014 01:02:38.609" level="INFO">Clicking element 'xpath://*[@id="app"]/div/aside/div[2]/div/div[2]/nav/div[2]/ul[1]/li[5]/a'.</msg>
+<status status="PASS" starttime="20221014 01:02:38.606" endtime="20221014 01:02:38.912"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Yhteystiedot</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221014 01:02:38.956" level="INFO">Current page contains text 'Yhteystiedot'.</msg>
+<status status="PASS" starttime="20221014 01:02:38.913" endtime="20221014 01:02:38.956"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221014 01:02:41.970" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20221014 01:02:38.957" endtime="20221014 01:02:41.970"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221014 01:02:41.971" endtime="20221014 01:02:44.191"/>
+</kw>
+<status status="PASS" starttime="20221014 01:02:33.677" endtime="20221014 01:02:44.192"/>
+</test>
+<status status="PASS" starttime="20221014 01:02:33.177" endtime="20221014 01:02:44.194"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Verkkokauppa Testing">Verkkokauppa Testing</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

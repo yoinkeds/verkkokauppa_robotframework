@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.2 on win32)" generated="20221013 22:14:25.770" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\onnin\.vscode\extensions\robocorp.robotframework-lsp-1.3.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Browser">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20221013 22:14:26.618" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20221013 22:14:26.617" endtime="20221013 22:14:26.618"/>
+</kw>
+<kw name="Input Text">
+<arg>xpath://*[@id="app"]/div/header/div/nav/form/div/input</arg>
+<arg>${item2}</arg>
+<status status="NOT RUN" starttime="20221013 22:14:26.620" endtime="20221013 22:14:26.620"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221013 22:14:26.620" endtime="20221013 22:14:26.620"/>
+</kw>
+<kw name="Click Button">
+<arg>xpath://*[@id="app"]/div/header/div/nav/form/div/div/button[2]</arg>
+<status status="NOT RUN" starttime="20221013 22:14:26.621" endtime="20221013 22:14:26.621"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221013 22:14:26.622" endtime="20221013 22:14:26.622"/>
+</kw>
+<kw name="Click Element">
+<arg>xpath://*[@id="main"]/div/div[2]/div[1]/ol/li[1]/article/a</arg>
+<status status="NOT RUN" starttime="20221013 22:14:26.623" endtime="20221013 22:14:26.623"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221013 22:14:26.623" endtime="20221013 22:14:26.623"/>
+</kw>
+<kw name="Click Button">
+<arg>xpath://*[@id="allow-cookies"]</arg>
+<status status="NOT RUN" starttime="20221013 22:14:26.625" endtime="20221013 22:14:26.625"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221013 22:14:26.625" endtime="20221013 22:14:26.625"/>
+</kw>
+<kw name="Click Button">
+<arg>xpath://*[@id="main"]/section/aside/div[2]/div[2]/div[1]/div[2]/button[1]</arg>
+<status status="NOT RUN" starttime="20221013 22:14:26.626" endtime="20221013 22:14:26.626"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20221013 22:14:26.626" endtime="20221013 22:14:26.626"/>
+</kw>
+<kw name="Page Should Contain">
+<arg>Lisätty ostoskoriin</arg>
+<status status="NOT RUN" starttime="20221013 22:14:26.628" endtime="20221013 22:14:26.628"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" starttime="20221013 22:14:26.629" endtime="20221013 22:14:26.629"/>
+</kw>
+<status status="PASS" starttime="20221013 22:14:25.799" endtime="20221013 22:14:30.427"/>
+</kw>
+<status status="PASS" starttime="20221013 22:14:25.797" endtime="20221013 22:14:30.427"/>
+</test>
+<status status="PASS" starttime="20221013 22:14:25.773" endtime="20221013 22:14:30.428"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
